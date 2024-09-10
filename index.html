@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exercice avec Plot</title>
+    <style>
+        .container {
+            display: flex;
+            justify-content: space-around;
+            margin-top: 20px;
+        }
+
+        .graph {
+            width: 500px;
+            height: 400px;
+            margin: 20px;
+        }
+    </style>
+</head>
+<body>
+    <nav>
+        <ul>
+            <li><a href="#section1">Section 1</a></li>
+            <li><a href="#section2">Section 2</a></li>
+        </ul>
+    </nav>
+
+    <section id="section1">
+        <h2>Section 1</h2>
+        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Vel, dicta temporibus nostrum voluptatum magnam reiciendis fugiat perspiciatis id ea enim provident nesciunt at iusto eum molestias quo vitae excepturi odit?.</p>
+    </section>
+
+    <section id="section2">
+        <h2>Section 2</h2>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsum tempora voluptas fugit vero aliquam magni inventore minima deserunt quis dolores vel ipsam voluptatibus, optio, pariatur dolorem! Beatae voluptate quae non..</p>
+    </section>
+
+
+    <div class="container">
+        <figure>
+            <figcaption>Graphique pour la section 1</figcaption>
+            <div id="graph1" class="graph"></div>
+        </figure>
+
+        <figure>
+            <figcaption>Graphique pour la section 2</figcaption>
+            <div id="graph2" class="graph"></div>
+        </figure>
+    </div>
+
+    <script src="./index.js"></script>
+</body>
+</html>
