@@ -48,15 +48,12 @@
         </figure>
     </div>
 
-    <!-- Ajout du script pour les graphiques -->
     <script type="module">
         import * as Plot from "https://cdn.jsdelivr.net/npm/@observablehq/plot@0.6/+esm";
 
-        // Graphique 1 : Histogramme basé sur des données aléatoires
         const graph1 = Plot.rectY({length: 10000}, Plot.binX({y: "count"}, {x: Math.random})).plot();
         document.getElementById("graph1").appendChild(graph1);
 
-        // Graphique 2 : Diagramme de points à partir de données statiques
         const dataSection2 = [
             {category: "A", value: 30},
             {category: "B", value: 80},
